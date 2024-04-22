@@ -1,0 +1,25 @@
+#Public Health Disease Surveillance Architecture Development Projec
+
+## Overview
+
+This is a step by step process into creating a Disease Surveillance Architecture using a virtual machine environment.
+
+## Step One: Configuring the Virtual Machine
+
+I first created 4 virtual machines using an ubuntu docker template. These machines were to represent 4 hospitals located in Michigan's Upper Peninsula. Each machine was configured using specific guidelines.
+
+## Step Two: Installation, Configuration, and Security of OpenEMR
+
+An electronic health record (EHR) was then installed and configured in each virtual machine
+
+## Step Three: Generation of Synthea Patient and Syndromic Surveillance Data for Hospital EHRs to Simulate Disease Outbreak
+
+Synthetic patient and syndromic surveillance data was generated for each hospital EHR
+
+## Step Four: Installation and Configuration of Hapi-FHIR Server
+
+A Hapi-FHIR server was installed and configured into a 5th virtual machine that contains a Health Information Exchange (HIE)
+
+## Step Five: Interoperability - FHIR Data Exchange with Hapi-FHIR
+
+Demonstrated the role of Hapi-FHIR in exchanging HL7 FHIR messages from EHRs
